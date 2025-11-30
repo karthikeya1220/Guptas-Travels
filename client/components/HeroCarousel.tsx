@@ -304,7 +304,7 @@ export default function HeroCarousel() {
           <img
             src={currentSlide.image}
             alt={currentSlide.alt}
-            className="absolute inset-0 w-full h-full object-cover object-[center_right_25%] sm:object-center"
+            className="absolute inset-0 w-full h-full object-cover object-[60%_center] sm:object-center"
             loading="eager"
             fetchPriority="high"
           />
