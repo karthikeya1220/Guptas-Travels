@@ -211,7 +211,7 @@ export default function VehicleFleet() {
                   src={vehicle.image}
                   alt={`${vehicle.name} Car Rental Tirupati - ${vehicle.subtitle} - Guptha Travels Best Car Rental Service`}
                   title={`Book ${vehicle.name} in Tirupati - ${vehicle.capacity} - Starting from ${vehicle.localRent}`}
-                  className="w-full h-full object-contain sm:object-cover"
+                  className="w-full h-full object-contain sm:object-cover object-[top_center] rounded-3xl"
                   loading="lazy"
                 />
                 {/* Gradient Overlay - Always visible */}
